@@ -1,0 +1,33 @@
+.datePickerInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+
+  input {
+    width: 97%;
+    padding: 8px;
+    position: relative;
+  }
+  .label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: 75px;
+    z-index: 5;
+  }
+  .inputWrapper {
+    &.isInvalid {
+      border-color: red;
+    }
+  }
+  &.isInvalid {
+    border-color: red;
+  }
+  border-color: red;
+  .text-danger {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+}

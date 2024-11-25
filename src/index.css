@@ -1,0 +1,6 @@
+@import 'assets/styles/bootstrap-grid.css';
+@import 'assets/fonts/Poppins/style.css';
+
+body {
+    direction: rtl;
+}
