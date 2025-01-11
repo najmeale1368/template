@@ -26,10 +26,10 @@ const Input: React.FC<InputProps> = ({ type, name, label, onChange }) => {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const val = e.target.value;
+    console.log("Input Value:", val);
     setValue(val);
     onChange(name, val);
   };
-
   return (
     <div className="input">
       <input
